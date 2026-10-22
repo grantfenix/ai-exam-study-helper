@@ -1,0 +1,20 @@
+# 가상환경 및 환경 변수 (보안 및 제외)
+.venv/
+.env
+*.env
+
+# 로컬 사용자 학습 데이터 및 캐시
+data/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 기존 원본 예제 및 테스트 파일 (포트폴리오 업로드 제외)
+app.py
+prompt.md
+memory.md
+api_test.py
+api_test_2.py
+requirements.txt
+00_API_Windows.md
+
